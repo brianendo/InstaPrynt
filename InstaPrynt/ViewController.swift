@@ -121,9 +121,8 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
             let h: CGFloat = size.height
             let reload_distance: CGFloat = 10
             if(y > h + reload_distance) {
-                print("Load more rows")
                 self.page += 1
-                self.loadData()
+                self.loadNextPage()
             }
         }
         self.lastContentOffset = scrollView.contentOffset.y
@@ -137,10 +136,9 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
         if self.isLoading {
             return
         }
-        self.isLoading = true
         print("Reached")
+        self.isLoading = true
         self.loadData()
-        self.isLoading = false
     }
     
     
@@ -207,6 +205,7 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
                     print("No value loaded")
                 }
                 self.collectionView.reloadData()
+                self.isLoading = false
         }
     }
 
