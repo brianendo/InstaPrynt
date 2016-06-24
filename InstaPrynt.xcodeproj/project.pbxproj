@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		57A5EF8E62C8001CCD63326C /* Pods_InstaPrynt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A92640CF1E066478C2FFCC6 /* Pods_InstaPrynt.framework */; };
+		8E4CD3CA1D1C74D8002F89C4 /* PictureCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4CD3C91D1C74D7002F89C4 /* PictureCollectionViewCell.swift */; };
+		8E4CD3CE1D1CA8A9002F89C4 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4CD3CD1D1CA8A9002F89C4 /* DetailViewController.swift */; };
+		8E4CD3D01D1CAF0F002F89C4 /* Picture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4CD3CF1D1CAF0F002F89C4 /* Picture.swift */; };
+		8E4CD3D21D1CD5FE002F89C4 /* DetailCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4CD3D11D1CD5FE002F89C4 /* DetailCollectionViewCell.swift */; };
 		8E58E8CC1D1C6A92004247DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E58E8CB1D1C6A92004247DB /* AppDelegate.swift */; };
 		8E58E8CE1D1C6A92004247DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E58E8CD1D1C6A92004247DB /* ViewController.swift */; };
 		8E58E8D11D1C6A92004247DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E58E8CF1D1C6A92004247DB /* Main.storyboard */; };
@@ -34,6 +39,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A92640CF1E066478C2FFCC6 /* Pods_InstaPrynt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InstaPrynt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		24E2C55EC27A94BD775874F9 /* Pods-InstaPrynt.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstaPrynt.debug.xcconfig"; path = "Pods/Target Support Files/Pods-InstaPrynt/Pods-InstaPrynt.debug.xcconfig"; sourceTree = "<group>"; };
+		8E4CD3C91D1C74D7002F89C4 /* PictureCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PictureCollectionViewCell.swift; sourceTree = "<group>"; };
+		8E4CD3CB1D1C9375002F89C4 /* InstaPrynt-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "InstaPrynt-Bridging-Header.h"; sourceTree = "<group>"; };
+		8E4CD3CD1D1CA8A9002F89C4 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		8E4CD3CF1D1CAF0F002F89C4 /* Picture.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Picture.swift; sourceTree = "<group>"; };
+		8E4CD3D11D1CD5FE002F89C4 /* DetailCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailCollectionViewCell.swift; sourceTree = "<group>"; };
 		8E58E8C81D1C6A92004247DB /* InstaPrynt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstaPrynt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E58E8CB1D1C6A92004247DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8E58E8CD1D1C6A92004247DB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +59,7 @@
 		8E58E8E71D1C6A92004247DB /* InstaPryntUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstaPryntUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E58E8EB1D1C6A92004247DB /* InstaPryntUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstaPryntUITests.swift; sourceTree = "<group>"; };
 		8E58E8ED1D1C6A92004247DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7B92EBE2D0143B148FDB69D /* Pods-InstaPrynt.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstaPrynt.release.xcconfig"; path = "Pods/Target Support Files/Pods-InstaPrynt/Pods-InstaPrynt.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57A5EF8E62C8001CCD63326C /* Pods_InstaPrynt.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +88,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3DB19AA15026A8BBE738408C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				24E2C55EC27A94BD775874F9 /* Pods-InstaPrynt.debug.xcconfig */,
+				C7B92EBE2D0143B148FDB69D /* Pods-InstaPrynt.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		629EA8A9C95C3C7470D1E661 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0A92640CF1E066478C2FFCC6 /* Pods_InstaPrynt.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8E58E8BF1D1C6A91004247DB = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +112,8 @@
 				8E58E8DF1D1C6A92004247DB /* InstaPryntTests */,
 				8E58E8EA1D1C6A92004247DB /* InstaPryntUITests */,
 				8E58E8C91D1C6A92004247DB /* Products */,
+				3DB19AA15026A8BBE738408C /* Pods */,
+				629EA8A9C95C3C7470D1E661 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,10 +132,15 @@
 			children = (
 				8E58E8CB1D1C6A92004247DB /* AppDelegate.swift */,
 				8E58E8CD1D1C6A92004247DB /* ViewController.swift */,
+				8E4CD3C91D1C74D7002F89C4 /* PictureCollectionViewCell.swift */,
+				8E4CD3CD1D1CA8A9002F89C4 /* DetailViewController.swift */,
+				8E4CD3D11D1CD5FE002F89C4 /* DetailCollectionViewCell.swift */,
+				8E4CD3CF1D1CAF0F002F89C4 /* Picture.swift */,
 				8E58E8CF1D1C6A92004247DB /* Main.storyboard */,
 				8E58E8D21D1C6A92004247DB /* Assets.xcassets */,
 				8E58E8D41D1C6A92004247DB /* LaunchScreen.storyboard */,
 				8E58E8D71D1C6A92004247DB /* Info.plist */,
+				8E4CD3CB1D1C9375002F89C4 /* InstaPrynt-Bridging-Header.h */,
 			);
 			path = InstaPrynt;
 			sourceTree = "<group>";
@@ -132,9 +170,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8E58E8F01D1C6A92004247DB /* Build configuration list for PBXNativeTarget "InstaPrynt" */;
 			buildPhases = (
+				999D9245ACA3403597B4724E /* Check Pods Manifest.lock */,
 				8E58E8C41D1C6A91004247DB /* Sources */,
 				8E58E8C51D1C6A91004247DB /* Frameworks */,
 				8E58E8C61D1C6A91004247DB /* Resources */,
+				A372D584BC91BE8EEF3884E8 /* Embed Pods Frameworks */,
+				FD17E1F9095BD82502A1C98F /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -251,13 +292,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		999D9245ACA3403597B4724E /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A372D584BC91BE8EEF3884E8 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InstaPrynt/Pods-InstaPrynt-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD17E1F9095BD82502A1C98F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InstaPrynt/Pods-InstaPrynt-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8E58E8C41D1C6A91004247DB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E4CD3CA1D1C74D8002F89C4 /* PictureCollectionViewCell.swift in Sources */,
+				8E4CD3D01D1CAF0F002F89C4 /* Picture.swift in Sources */,
 				8E58E8CE1D1C6A92004247DB /* ViewController.swift in Sources */,
 				8E58E8CC1D1C6A92004247DB /* AppDelegate.swift in Sources */,
+				8E4CD3CE1D1CA8A9002F89C4 /* DetailViewController.swift in Sources */,
+				8E4CD3D21D1CD5FE002F89C4 /* DetailCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,23 +490,30 @@
 		};
 		8E58E8F11D1C6A92004247DB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24E2C55EC27A94BD775874F9 /* Pods-InstaPrynt.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = InstaPrynt/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.brianendo.InstaPrynt;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "InstaPrynt/InstaPrynt-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		8E58E8F21D1C6A92004247DB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7B92EBE2D0143B148FDB69D /* Pods-InstaPrynt.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = InstaPrynt/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.brianendo.InstaPrynt;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "InstaPrynt/InstaPrynt-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -482,6 +582,7 @@
 				8E58E8F21D1C6A92004247DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8E58E8F31D1C6A92004247DB /* Build configuration list for PBXNativeTarget "InstaPryntTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +591,7 @@
 				8E58E8F51D1C6A92004247DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8E58E8F61D1C6A92004247DB /* Build configuration list for PBXNativeTarget "InstaPryntUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +600,7 @@
 				8E58E8F81D1C6A92004247DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
